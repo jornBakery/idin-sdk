@@ -1,0 +1,25 @@
+{
+  "name": "paynl/idin-sdk",
+  "description": "idin SDK",
+  "type": "library",
+  "require": {
+    "php-curl-class/php-curl-class": "^8.5",
+    "ext-json": "^1.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0",
+    "satooshi/php-coveralls": "^2.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jorn Bakker",
+      "email": "jorn@pay.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Paynl\\IDIN\\": "src/"
+    }
+  }
+}
