@@ -10,8 +10,6 @@ require_once '../vendor/autoload.php';
 require_once 'config.php';
 
 try {
-    $config = new \Paynl\IDIN\Config();
-
     $sdk    = new \Paynl\IDIN\IDIN($config);
     $result = $sdk->getIssuers();
 
